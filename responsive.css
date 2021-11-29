@@ -1,11 +1,21 @@
-@media screen and (max-width: 421px) {
+@media screen and (max-width: 420px) {
+
+    body{
+        margin: 0;
+    }
+
     h1{
         font-size: 4em;
     }
 
+    .container{
+        margin: -45px auto;
+    }
+
+
     #lezioni .row{
         background-color: #F2F2CD;
-        
+        margin: 0;
     }
 
     #lezioni .row>.left, #lezioni .row>.right{
@@ -18,6 +28,25 @@
     }
 
     #lezioni .row>.left h3, #lezioni .row>.right h3{
+        margin: 0 auto;
+    }
+
+    #steps .row{
+        background-color: #f9f9f9;
+        margin: 0;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right{
+        width: 100%;
+        font-size: 2em;
+        margin: 10px auto;
+    }
+
+    #steps .row>.left h3,
+    #steps .row>.central h3,
+    #steps .row>.right h3{
         margin: 0 auto;
     }
 
