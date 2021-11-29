@@ -39,7 +39,7 @@
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right{
-        width: 100%;
+        width: 99%;
         font-size: 2em;
         margin: 10px auto;
     }
@@ -48,6 +48,26 @@
     #steps .row>.central h3,
     #steps .row>.right h3{
         margin: 0 auto;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+        font-size: 2em;
+    }
+
+    #why .row>.first{
+        margin-top: 10px;
+    }
+
+
+    #why h3{
+        margin: 0 auto;
+    }
+
+    #why .row{
+        background-color: #F2F2CD;
+        margin-top: 0;
     }
 
 }
